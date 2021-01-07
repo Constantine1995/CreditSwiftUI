@@ -14,7 +14,9 @@ struct ContentRow: View {
     @State var showContent = false
     
     var body: some View {
+        
         ScrollView {
+            
             VStack {
                 ScrollView(.vertical, showsIndicators: false) {
                     VStack() {
@@ -22,7 +24,7 @@ struct ContentRow: View {
                             ForEach(credits) { credit in
                                 CourseView(credit: credit)
                             }
-                            .frame(width: 350, height: 220)
+                            .frame(width: Constant.screenSize.width * 0.9, height: 220)
                         }
                     }
                     .padding(.leading, 20)
@@ -32,6 +34,7 @@ struct ContentRow: View {
                 }
             }
         }
+        
     }
     
 }
@@ -45,7 +48,6 @@ struct ContentRow_Previews: PreviewProvider {
 struct CourseView: View {
     var credit: CreditBanks
     var body: some View {
-        // Create CreditItem
         VStack(alignment: .center) {
             VStack(spacing: 8.0) {
                 Image(credit.image)
@@ -82,10 +84,10 @@ struct CourseView: View {
             }
         }
         .padding(16)
-        .frame(width: 350, height: 250)
+        .frame(width: Constant.screenSize.width * 0.9, height: 250)
         .background(Color.white)
         .cornerRadius(30)
-        //        .shadow(color: Color.black.opacity(0.1), radius: 2, x: 0, y: 0)
+        .shadow(color: Color.black.opacity(0.1), radius: 5, x: 0, y: 0)
         
     }
     

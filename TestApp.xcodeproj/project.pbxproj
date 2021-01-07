@@ -15,6 +15,7 @@
 		ADB6DD3325A5B23B004E5DB3 /* CreditBanks.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB6DD3225A5B23B004E5DB3 /* CreditBanks.swift */; };
 		ADB6DD3725A5B2B0004E5DB3 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB6DD3625A5B2B0004E5DB3 /* Data.swift */; };
 		ADB6DD4025A5BA68004E5DB3 /* CreditModelData.json in Resources */ = {isa = PBXBuildFile; fileRef = ADB6DD3B25A5B2D3004E5DB3 /* CreditModelData.json */; };
+		ADDBA3C825A6FA280097D542 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDBA3C725A6FA280097D542 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		ADB6DD3225A5B23B004E5DB3 /* CreditBanks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditBanks.swift; sourceTree = "<group>"; };
 		ADB6DD3625A5B2B0004E5DB3 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		ADB6DD3B25A5B2D3004E5DB3 /* CreditModelData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CreditModelData.json; sourceTree = "<group>"; };
+		ADDBA3C725A6FA280097D542 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +62,12 @@
 		ADB6DD1525A5A76A004E5DB3 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
-				ADB6DD3A25A5B2C1004E5DB3 /* Resources */,
 				ADB6DD3525A5B2A6004E5DB3 /* Models */,
 				ADB6DD1625A5A76A004E5DB3 /* TestAppApp.swift */,
 				ADB6DD1825A5A76A004E5DB3 /* ContentView.swift */,
 				ADB6DD2E25A5AC8E004E5DB3 /* ContentRow.swift */,
+				ADDBA3CB25A6FA900097D542 /* Source */,
+				ADB6DD3A25A5B2C1004E5DB3 /* Resources */,
 				ADB6DD1A25A5A76F004E5DB3 /* Assets.xcassets */,
 				ADB6DD1F25A5A76F004E5DB3 /* Info.plist */,
 				ADB6DD1C25A5A76F004E5DB3 /* Preview Content */,
@@ -95,6 +98,14 @@
 				ADB6DD3B25A5B2D3004E5DB3 /* CreditModelData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		ADDBA3CB25A6FA900097D542 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				ADDBA3C725A6FA280097D542 /* Constant.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +183,7 @@
 				ADB6DD2F25A5AC8E004E5DB3 /* ContentRow.swift in Sources */,
 				ADB6DD3325A5B23B004E5DB3 /* CreditBanks.swift in Sources */,
 				ADB6DD1725A5A76A004E5DB3 /* TestAppApp.swift in Sources */,
+				ADDBA3C825A6FA280097D542 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
