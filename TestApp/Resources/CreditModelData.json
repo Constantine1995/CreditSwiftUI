@@ -1,0 +1,39 @@
+
+[
+    {
+        "id": 1,
+        "image": "creditPlus",
+        "rate": "от 0.01 %",
+        "firstOverPayment": "10000 грн",
+        "secondOverPayment": "10000 грн",
+        "term": "3 - 30 дней",
+        "age": "20-65 лет"
+    },
+    {
+        "id": 2,
+        "image": "7Credit",
+        "rate": "от 0.01 %",
+        "firstOverPayment": "4000 грн",
+        "secondOverPayment": "5000 грн",
+        "term": "1 - 30 дней",
+        "age": "18-65 лет"
+    },
+    {
+        "id": 3,
+        "image": "ccloan",
+        "rate": "от 0.01 %",
+        "firstOverPayment": "5000 грн",
+        "secondOverPayment": "10000 грн",
+        "term": "1 - 30 дней",
+        "age": "20-65 лет"
+    },
+    {
+        "id": 4,
+        "image": "vashaGot",
+        "rate": "от 0.01 %",
+        "firstOverPayment": "7000 грн",
+        "secondOverPayment": "7000 грн",
+        "term": "1 - 31 дней",
+        "age": "18-70 лет"
+    }
+]
